@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+    
+body {
+    background-color: #000000;
+}
+
+     .this {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url('lpd.png');
+  background: no-repeat center cover;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+}
+
+.this::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+
+}
+
+#blah {
+    color: #ffffff;
+    font-weight: 600;
+    z-index: 2;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+#bold {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+.heading {
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    color:chartreuse;
+    padding-top: 0;
+    margin: 0;
+}
+
+.heading h1 {
+    font-size: 2.5rem;
+    padding-top: 10px;
+}
+
+    </style>
+    <title>Big Boys</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>BigBoys-LateNight.github.io</h1>
+    </div>
+    <header  class="this">
+    <div id="blah">
+<h1>Looking to Have some fun? Buy our new special bundle package for... </h1>
+    <br>
+<h1 id="bold">a butt-load of fun...</h1>
+<br>
+<h1>And a <span id="bold"> mouth full of joy</span>.</h1>
+<br>
+<br>
+<h3 style="padding-top: 100px; z-index: 2;">Contact: <em>071 607 2402</em></h3>
+</div>
+</header>
+</body>
+
+</html>
